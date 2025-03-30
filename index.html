@@ -7,20 +7,26 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+		<script src="https://kit.fontawesome.com/seu-token.js" crossorigin="anonymous"></script>
+		    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 	</head>
 	<body class="flex flex-col min-h-screen bg-linear-to-br from-black via-cool-gray-900 to-gray-800">
 		<header class="text-white">
 			<nav
 				class="max-w-7xl mx-auto h-24 px-4 flex justify-between items-center"
 			>
-				<a href="#" class="text-4xl font-bold"
+				<a href="https://github.com/Matheus-git/tech-bookshelf" target=_blank class="text-4xl font-bold"
 				>Minhas leituras</a
 				>
 				<div
 					class="flex items-center hidden md:block"
 				>
-					<span>github</span>
-					<span>linkedin</span>
+					<a class="underline" href="https://github.com/Matheus-git" target=_blank>Github</a>
 				</div>
 			</nav>
 		</header>
@@ -29,52 +35,183 @@
 				class="max-w-7xl h-full mx-auto p-6 flex flex-col md:flex-row"
 			>
 				<aside
-					class="p-4 w-full md:w-64 flex-none mb-6 md:mb-0"
+					class="md:fixed p-4 w-full md:w-64 flex-none mb-6 md:mb-0"
 				>
-					<header class="mb-4">
-						<h2 class="text-xl font-bold">
-							Quick Links
-						</h2>
-					</header>
-
 					<ul class="space-y-2">
 						<li>
 							<a
-								href="#"
-								class=" hover:text-gray-600"
-							>About Us</a
+								href="#concluidas"
+								class="underline hover:text-gray-600"
+							>Concluídas</a
 							>
 						</li>
 						<li>
 							<a
-								href="#"
-								class=" hover:text-gray-600"
-							>Services</a
+								href="#andamento"
+								class="underline hover:text-gray-600"
+							>Em andamento</a
 							>
 						</li>
 						<li>
 							<a
-								href="#"
-								class=" hover:text-gray-600"
-							>Blog</a
-							>
-						</li>
-						<li>
-							<a
-								href="#"
-								class=" hover:text-gray-600"
-							>Contact</a
+								href="#futuras"
+								class="underline hover:text-gray-600"
+							>Próximas</a
 							>
 						</li>
 					</ul>
 				</aside>
-				<section class="flex-1 p-4">
+				<section class="md:ml-63 flex-1 p-4">
 					<section class="flex-1">
-						<div class="text-white p-2 group h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-400 mb-3">
+						<h1 id="concluidas" class="font-bold text-4xl mb-5">Concluídas</h1>
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
 							<div class="flex flex-col flex-1 h-full w-full">
-								<div class="flex items-center px-2 justify-start gap-4 mb-2">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
 									<div class="text-lg/7 font-semibold">
-										<span>Refatoração</span> <span class="text-gray-500"> (Fowler) </span>
+										<span>Refatoração</span> <span class="text-gray-500"> (Martin Fowler) </span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6  ">
+										Por mais de vinte anos, programadores experientes no mundo inteiro contaram com o livro Refatoração de Martin Fowler para aperfeiçoar o design de códigos existentes e melhorar a manutenibilidade do software, assim como para deixar o código existente mais fácil de entender. Essa nova edição ansiosamente esperada foi atualizada por completo para refletir mudanças vitais no domínio da programação. Refatoração 2ª edição contém um catálogo atualizado das refatorações e inclui exemplos de código JavaScript bem como novos exemplos funcionais que demonstram a refatoração sem classes. Assim como na edição original, este livro explica o que é refatoração, por que você deve refatorar, como reorganizar um código que precise de refatoração e como fazer isso de forma bem-sucedida, independentemente da linguagem usada. • Entenda o processo e os princípios básicos da refatoração. • Aplique rapidamente refatorações convenientes para deixar um programa mais fácil de entender e de alterar. • Reconheça “maus cheiros” no código que sinalizam oportunidades para refatorar. • Explore as refatorações, cada uma com suas explicações, a motivação, o mecanismo e exemplos simples. • Escreva testes robustos para suas refatorações. • Reconheça as contrapartidas e os obstáculos para a refatoração.
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/c8vVHUB" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Linux Eficiente na Linha de Comando</span> <span class="text-gray-500"> (Daniel J. Barrett) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6  ">
+										Leve suas habilidades no Linux ao próximo nível! Seja você um administrador de sistema, desenvolvedor de software, engenheiro de confiabilidade de sites ou amador entusiasta, este livro prático e útil o ajudará a trabalhar com mais rapidez, de maneira mais inteligente e com mais eficiência. Você aprenderá a criar e executar comandos complexos para resolver problemas empresariais reais, processar e recuperar informações e automatizar tarefas manuais.
+										Também saberá o que ocorre por trás do prompt do shell para que, independentemente do comando que executar, você possa ser mais bem-sucedido no uso diário do Linux e mais competitivo no mercado de trabalho.
+										À medida que desenvolver habilidades intermediárias a avançadas na linha de comando, você aprenderá a: • Selecionar ou criar comandos que o façam realizar seu trabalho rapidamente
+										• Executar comandos eficientemente e navegar no sistema de arquivos do Linux com facilidade
+										• Criar comandos poderosos e complexos a partir de comandos mais simples
+										• Transformar arquivos de texto e consultá-los como bancos de dados para atingir objetivos empresariais
+										• Controlar os recursos de apontar e clicar do Linux a partir da linha de comando									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/250wAJB" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Padrões de Projetos</span> <span class="text-gray-500"> (Erich Gamma, Richard Helm, Ralph Johnson, ... ) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6  ">
+									Catálogo de soluções simples e sucintas para os problemas mais freqüentes na área de projeto, assinado por quatro profissionais com grande experiência em software orientado a objetos. Um best-seller mundial.									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/dyufh63" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Mapeamento de Experiência</span> <span class="text-gray-500"> (Jim Kalbach) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Os clientes que têm experiências inconsistentes com produtos e serviços ficam frustrados, e com razão. Mas é pior para as organizações que não conseguem identificar as causas desses problemas porque focam demais os processos. Este livro atualizado mostra à sua equipe como usar diagramas de alinhamento para transformar em insights úteis as observações valiosas dos clientes. Com essa técnica poderosa, você consegue mapear visualmente a experiência do cliente existente e antever futuras soluções.
+										Designers, gerentes de produto e de marca, especialistas em marketing e empresários descobrirão como a diagramação da experiência ajuda a determinar onde se cruzam os objetivos do negócio e as perspectivas do cliente. Armado com esses insights, é possível fornecer um valor real às pessoas que você atende. O mapeamento de experiências não é apenas um design de produtos e serviços, mas um meio de entender a condição humana.									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/fER1pKw" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Redes de Computadores</span> <span class="text-gray-500"> (Andrew Tanenbaum e  Nick Feamster) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Nesta que é a bíblia de redes de computadores, Tanenbaum, Feamster & Wetherall explicam o funcionamento das redes de dentro para fora. Isto é, começam com a camada física das redes, dos computadores e dos sistemas de transmissão e vão até às aplicações. Os capítulos  apresentam os conceitos-chave e são ilustrados por exemplos de redes reais: Internet, redes sem fio, incluindo LANs sem fio; banda larga sem fio e Bluetooth. Esta 6ª edição de Redes de computadores traz muitas mudanças. Todos os capítulos foram atualizados e o Capítulo 8, que trata de segurança, foi completamente reformulado, priorizando a segurança de redes.									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/fz5wFpf" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Entendendo Algoritmos</span> <span class="text-gray-500"> (Aditya Y. Bhargava) 
+										</span>
 									</div>
 									<div class="flex items-center space-x-1 text-yellow-400">
 										<span>&#9733;</span>
@@ -84,13 +221,312 @@
 										<span>&#9734;</span>  
 									</div>
 								</div>								
-								<div class="flex-1 overflow-hidden px-4">
-								<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6 transition-all ease-in-out duration-500">
-    Por mais de vinte anos, programadores experientes no mundo inteiro contaram com o livro Refatoração de Martin Fowler para aperfeiçoar o design de códigos existentes e melhorar a manutenibilidade do software, assim como para deixar o código existente mais fácil de entender. Essa nova edição ansiosamente esperada foi atualizada por completo para refletir mudanças vitais no domínio da programação. Refatoração 2ª edição contém um catálogo atualizado das refatorações e inclui exemplos de código JavaScript bem como novos exemplos funcionais que demonstram a refatoração sem classes. Assim como na edição original, este livro explica o que é refatoração, por que você deve refatorar, como reorganizar um código que precise de refatoração e como fazer isso de forma bem-sucedida, independentemente da linguagem usada. • Entenda o processo e os princípios básicos da refatoração. • Aplique rapidamente refatorações convenientes para deixar um programa mais fácil de entender e de alterar. • Reconheça “maus cheiros” no código que sinalizam oportunidades para refatorar. • Explore as refatorações, cada uma com suas explicações, a motivação, o mecanismo e exemplos simples. • Escreva testes robustos para suas refatorações. • Reconheça as contrapartidas e os obstáculos para a refatoração.
-</p>
-									<div class="text-md/6 hidden mt-2 group-hover:block">
-										<a href="#">Ver na Amazon</a>
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Um guia ilustrado para programadores e outros curiosos.
+Um algoritmo nada mais é do que um procedimento passo a passo para a resolução de um problema. Os algoritmos que você mais utilizará como um programador já foram descobertos, testados e provados. Se você quer entendê-los, mas se recusa a estudar páginas e mais páginas de provas, este é o livro certo. Este guia cativante e completamente ilustrado torna simples aprender como utilizar os principais algoritmos nos seus programas.
+O livro Entendendo Algoritmos apresenta uma abordagem agradável para esse tópico essencial da ciência da computação. Nele, você aprenderá como aplicar algoritmos comuns nos problemas de programação enfrentados diariamente. Você começará com tarefas básicas como a ordenação e a pesquisa. Com a prática, você enfrentará problemas mais complexos, como a compressão de dados e a inteligência artificial. Cada exemplo é apresentado em detalhes e inclui diagramas e códigos completos em Python. Ao final deste livro, você terá dominado algoritmos amplamente aplicáveis e saberá quando e onde utilizá-los.									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/9667z89" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											O livro da matemática</span> <span class="text-gray-500"> (Vários) 
+										</span>
 									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9734;</span>
+										<span>&#9734;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Escrito em linguagem simples e acessível, O livro da matemática é ricamente composto por infográficos, ilustrações e textos atraentes. A obra é fundamental e envolvente tanto para curiosos no assunto quanto para os estudantes mais entusiasmados. O título faz parte da coleção best-seller As Grandes Ideias de Todos os Tempos que tem mais de 20 títulos publicados pela Globo Livros e assuntos tão diversos como filosofia, mitologia, psicologia, economia, sociologia e história, entre tantos outros.
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/2TNN3jD" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Mapeamento da História do Usuário</span> <span class="text-gray-500"> (Jeff Patton) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9734;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Mapeamento da História do Usuário é uma ferramenta valiosa para o desenvolvimento de software assim que você entende por que e como usá-lo. Este livro inspirador examina como essa técnica sempre mal compreendida pode ajudar sua equipe a permanecer focada nos usuários e em suas necessidades, sem perder o entusiasmo pelos recursos individuais do produto. O autor Jeff Patton mostra como os mapas da história variáveis permitem que sua equipe tenha conversas melhores sobre o projeto durante o processo de desenvolvimento. Sua equipe aprenderá a ter uma compreensão compartilhada do que vocês estão tentando construir e por quê. Tenha uma visão de alto nível do mapeamento da história, com um exercício para aprender os principais conceitos rapidamente. Entenda como as histórias realmente funcionam e como elas ganham vida nos projetos Ágil e Lean. Mergulhe no ciclo de vida de uma história, começando com as oportunidades e se aprofundando na descoberta. Prepare suas histórias, preste atenção d
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/6Aay477" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Arquitetura Limpa</span> <span class="text-gray-500"> (Robert C. Martin) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Agora, aproveitando o sucesso dos seus best-sellers "Código Limpo" e "O Codificador Limpo", o lendário artesão de software Robert C. Martin (“Uncle Bob”) vai revelar essas regras e ajudar o leitor a aplicá-las.
+A "Arquitetura Limpa" de Martin não é só mais um catálogo de opções. Com base em meio século de experiência nos mais variados ambientes de software, Martin indica as escolhas que você deve fazer e explica por que elas são cruciais para o seu sucesso. Como já era esperado do Uncle Bob, este livro está cheio de soluções simples e diretas para os desafios reais que você enfrentará - aqueles que irão influenciar diretamente o sucesso ou fracasso dos seus projetos.
+
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/2JlkyW9" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Não me Faça Pensar</span> <span class="text-gray-500"> (Steve Krug) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Quantas vezes você se sentiu perdido em um site? Quantas outras falhou ao tentar entender como funcionava um aplicativo? Na maioria das vezes, a culpa não é sua. Muitos são os sites ou aplicativos com falhas de desenvolvimento que dificultam sua compreensão e uso. Profissionais de usabilidade estão aí para assegurar que isso não aconteça, indo na raiz do problema, identificando através de testes os pontos em que os usuários "travam" e propondo soluções.
+
+										Steve Krug trabalha como consultor de usabilidade desde os tempos da conexão discada. Sua experiência no comando da Advanced Common Sense o levou a escrever um livro. Não Me Faça Pensar foi lançado em 2002 e até hoje é mencionado quando o assunto são publicações de informática que fizeram história. O passar dos anos e o desenvolvimento de novas tecnologias levaria Krug a atualizar a obra. A segunda edição de Não Me Faça Pensar veria a luz do dia em 2008.
+
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/0R8vpyy" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Personal Branding</span> <span class="text-gray-500"> (Arthur Bender) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9734;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										A última vez que você fez uma visita ao supermercado, parou para observar a quantidade de produtos que são ofertados para cada categoria? Com quantas marcas de refrigerante você se deparou? E pastas de dente, quantos tipos diferentes estavam presentes na gôndola?
+
+										No mundo profissional o cenário é muito parecido. Milhares de pessoas disputam cargos e posições interessantes em empresas, e a maioria oferece os mesmos atributos: formação superior, duas línguas, especialização, experiência etc. Como se diferenciar nesse cenário tão competitivo?
+										Em Personal Branding- Construindo sua marca Pessoal, o premiado publicitário Arthur Bender propõe uma discussão importante sobre a criação da sua marca pessoal. Com comparações práticas às regras do marketing, mostra que é possível a qualquer pessoa criar e fortalecer a sua marca pessoal, e tornar-se único em um mercado tão competitivo. Basta saber onde você quer chegar.
+
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/ck7rcku" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Código Limpo</span> <span class="text-gray-500"> (Robert C. Martin)  
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9734;</span>
+										<span>&#9734;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.
+
+										O renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniu com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos “dinamicamente” em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar.
+
+
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/hsJcpxn" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-2 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-1 h-full w-full">
+								<div class="flex items-center px-2 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/7 font-semibold">
+										<span>
+											Shell Script Profissional</span> <span class="text-gray-500"> (Aurelio Marinho Jargas)  
+										</span>
+									</div>
+									<div class="flex items-center space-x-1 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-1 overflow-hidden px-4">
+									<p class="text-md/6 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										"Fui mexer num script e levei horas para me achar nele. Estava uma bagunça, tudo amontoado, feio mesmo. Não tinha um único comentário para me ajudar. Os nomes de variáveis então? Era $a, $b, $tm, $cs... O que é um cs? É um caos, isso sim."
+
+										Você já passou por algo parecido? O inesquecível pesadelo de dar manutenção em um script mal feito. É tanto tempo perdido tentando achar o ponto certo, que às vezes o melhor é rescrever tudo.
+
+										O livro Shell Script Profissional ensina a fazer programas de qualidade em shell, com ênfase em código legível, portabilidade e manutenção futura. Melhore seus scripts, adicionando opções de linha de comando, arquivo de configuração, banco de dados e interface amigável ao usuário. Use a internet para rodar seu CGI. Domine as ferramentas do sistema, as expressões regulares e os caracteres de controle.
+
+
+									</p>
+
+								</div>
+								<div class="px-4 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/22E80Ko" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="flex-1">
+						<h1 id="andamento" class="font-bold text-4xl mb-5">Em andamento</h1>
+						<div class="text-white p-3 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-2 h-full w-full">
+								<div class="flex items-center px-3 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/6 font-semibold">
+										<span>
+											Mastering Ubuntu Server</span> <span class="text-gray-500"> (Jay LaCroix) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-2 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-2 overflow-hidden px-4">
+									<p class="text-md/5 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Ubuntu Server is taking the server world by storm - and for a good reason! The server-focused spin of Ubuntu is a stable, flexible, and powerful enterprise-class distribution of Linux with a focus on running servers both small and large.
+
+										Mastering Ubuntu Server is a book that will teach you everything you need to know in order to manage real Ubuntu-based servers in actual production deployments. This book will take you from initial installation to deploying production-ready solutions to empower your small office network, or even a full data center. You'll see examples of running an Ubuntu Server in the cloud, be walked through set up popular applications (such as Nextcloud), host your own websites, and deploy network resources such as DHCP, DNS, and others. You'll also see how to containerize applications via LXD to maximize efficiency and learn how to build Kubernetes clusters. This new fourth edition updates the popular book to cover Ubuntu 21.04 LTS, which takes advantage of the latest in Linux-based technologies.									</p>
+
+								</div>
+								<div class="px-5 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/apsBpLl" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text-white p-3 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-2 h-full w-full">
+								<div class="flex items-center px-3 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/6 font-semibold">
+										<span>
+											Algoritmos</span> <span class="text-gray-500"> (Thomas H. Cormen, ...) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-2 text-yellow-400">
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>
+										<span>&#9733;</span>  
+									</div>
+								</div>								
+								<div class="hidden md:block flex-2 overflow-hidden px-4">
+									<p class="text-md/5 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Best-seller mundial sobre o tema, Algoritmos – Teoria e Prática chega à nova edição! Com o desenvolvimento tecnológico cada vez mais avançado, saber trabalhar com algoritmos tem se tornado um importante diferencial para estudantes e profissionais, isso porque, atualmente, os algoritmos são aplicáveis em diversas situações – nas áreas de tecnologia, engenharia, saúde, finanças, educação, entre outras –, das tarefas mais simples às mais complexas. Dessa forma, com sua didática e combinação única de rigor e abrangência, a proposta deste livro é tornar os algoritmos uma ferramenta acessível a leitores de todos os níveis de conhecimento. A obra combina teoria e prática para fornecer uma compreensão sólida dos princípios fundamentais dos algoritmos, ao mesmo tempo que fornece exemplos práticos e análises de complexidade. Além disso, abrange uma variedade de algoritmos, estruturas de dados e técnicas de design de algoritmos. Totalmente atualizada, esta quarta edição apresenta as seguintes novidades: • Capítulos inéditos sobre correspondências em grafos bipartidos, algoritmos on-line e aprendizado de máquina (machine learning); 									</p>
+
+								</div>
+								<div class="px-5 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/iDewXm3" target=_blank>Ver na Amazon</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="flex-1">
+						<h1 id="futuras" class="font-bold text-4xl mb-5">Próximas</h1>
+						<div class="text-white p-3 group  md:h-31 hover:h-57 bg-linear-to-br from-gray-800 to:gray-800 hover:to-gray-900 w-full rounded-lg transition-all ease-in-out duration-200 mb-3">
+							<div class="flex flex-col flex-2 h-full w-full">
+								<div class="flex items-center px-3 justify-start gap-4 mb-2 ">
+									<div class="md:text-lg/6 font-semibold">
+										<span>
+											Hacking and Security</span> <span class="text-gray-500"> (Michael Kofler, ...  ) 
+										</span>
+									</div>
+									<div class="flex items-center space-x-2 text-yellow-400">
+																			</div>
+								</div>								
+								<div class="hidden md:block flex-2 overflow-hidden px-4">
+									<p class="text-md/5 overflow-hidden text-justify line-clamp-3 group-hover:line-clamp-6">
+										Uncover security vulnerabilities and harden your system against attacks! With this guide you'll learn to set up a virtual learning environment where you can test out hacking tools, from Kali Linux to hydra and Wireshark. Then expand your understanding of offline hacking, external safety checks, penetration testing in networks, and other essential security techniques, with step-by-step instructions. With information on mobile, cloud, and IoT security you can fortify your system against any threat! 									</p>
+
+								</div>
+								<div class="px-5 text-md/6 block md:hidden mt-2 group-hover:block">
+									<a class="underline font-bold" href="https://a.co/d/588QbWT" target=_blank>Ver na Amazon</a>
 								</div>
 							</div>
 						</div>
